@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "ssd210")(type "Legacy")(uri "${KIPRJMOD}/kicad/symbols/sigmastar/ssd210.lib")(options "")(descr ""))
+  (lib (name "ea3056")(type "Legacy")(uri "${KIPRJMOD}/kicad/symbols/everanalog/ea3056.lib")(options "")(descr ""))
+  (lib (name "spinor")(type "Legacy")(uri "${KIPRJMOD}/kicad/symbols/generic/spinor.lib")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "qfn68_35mm")(type "KiCad")(uri "${KIPRJMOD}/kicad/footprints/qfn68_35mm.pretty")(options "")(descr ""))
+  (lib (name "wson8-8x6mm")(type "KiCad")(uri "${KIPRJMOD}/kicad/footprints/wson8-8x6mm.pretty")(options "")(descr ""))
+)
