@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,29 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|148745176|88055176|54a648c8-a3ee-484b-bf2c-136d2ed58993|cefcbd3e-6fb8-42f9-8937-44eb8d57925b",
+        "courtyards_overlap|126617317|87976121|c547ade8-eb67-4e86-a103-f3ca59ad0ab7|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|127657877|99800001|55ca3d29-78ae-4df0-9806-cf0f0a6c0612|dd302399-0d6c-4b61-8650-41857d59108c",
+        "courtyards_overlap|129157317|87976121|b879c656-9323-4433-b712-f866e964e3f3|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|130197877|99800001|55ca3d29-78ae-4df0-9806-cf0f0a6c0612|bed0b72a-eb33-4b84-b450-5d41f10f4c1a",
+        "courtyards_overlap|131697317|87976121|16ec6548-2bb5-455b-b7c5-c7549b60f7ef|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|132737877|99800001|4a730726-2c62-4787-bc04-db12e4df1b20|55ca3d29-78ae-4df0-9806-cf0f0a6c0612",
+        "courtyards_overlap|135277877|99800001|55ca3d29-78ae-4df0-9806-cf0f0a6c0612|da8e0385-38ba-44b5-9cd3-f2829869cd2f",
+        "courtyards_overlap|137817877|99800001|55ca3d29-78ae-4df0-9806-cf0f0a6c0612|582534b0-48e7-4920-9b31-4f03202ea4ed",
+        "courtyards_overlap|139317317|87976121|a65bc387-2058-47d1-b871-fbbc3910bbd8|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|140357877|99800001|55ca3d29-78ae-4df0-9806-cf0f0a6c0612|ea20211d-660c-4c8c-8493-2d601b067ddb",
+        "courtyards_overlap|141857317|87976121|2a4a0c14-dc04-4dc5-8898-99da29d734e9|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|142786317|87976121|2a4a0c14-dc04-4dc5-8898-99da29d734e9|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|142897877|99800001|55ca3d29-78ae-4df0-9806-cf0f0a6c0612|912df6d1-aca3-4d1c-94ea-a09720f99f8c",
+        "courtyards_overlap|143826877|99800001|55ca3d29-78ae-4df0-9806-cf0f0a6c0612|912df6d1-aca3-4d1c-94ea-a09720f99f8c",
+        "courtyards_overlap|144397317|87976121|585e5add-23dd-4b60-98c7-5f7a7ee3cba3|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|145326317|87976121|585e5add-23dd-4b60-98c7-5f7a7ee3cba3|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|146937317|87976121|1aa01c5b-1a16-419d-997a-8e0c92170d90|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|147866317|87976121|1aa01c5b-1a16-419d-997a-8e0c92170d90|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|149477317|87976121|1b7a7e76-0535-4f79-8969-a28893b7128f|f13c9983-9fd7-4101-a18a-42b67755de5e",
+        "courtyards_overlap|150406317|87976121|1b7a7e76-0535-4f79-8969-a28893b7128f|f13c9983-9fd7-4101-a18a-42b67755de5e"
+      ],
       "meta": {
         "version": 2
       },
@@ -85,8 +107,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -110,7 +132,7 @@
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.19999999999999998,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.19999999999999998,
