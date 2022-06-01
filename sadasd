@@ -1,0 +1,47 @@
+[1mdiff --git a/flexbee.kicad_sch b/flexbee.kicad_sch[m
+[1mindex 859142c..fc7f6d3 100644[m
+[1m--- a/flexbee.kicad_sch[m
+[1m+++ b/flexbee.kicad_sch[m
+[36m@@ -1752,7 +1752,7 @@[m
+     (stroke (width 0) (type default) (color 0 0 0 0))[m
+     (uuid 15101335-fab3-4e03-b2f6-e21dcac447bc)[m
+   )[m
+[31m-  (wire (pts (xy 187.96 49.53) (xy 187.96 62.23))[m
+[32m+[m[32m  (wire (pts (xy 200.025 50.165) (xy 187.96 62.23))[m
+     (stroke (width 0) (type default) (color 0 0 0 0))[m
+     (uuid 1617c855-20d9-47b0-8a8a-6a7414284622)[m
+   )[m
+[36m@@ -2192,7 +2192,7 @@[m
+     (stroke (width 0) (type default) (color 0 0 0 0))[m
+     (uuid 7530addc-113b-42af-9300-14cc46bed669)[m
+   )[m
+[31m-  (wire (pts (xy 187.96 39.37) (xy 187.96 41.91))[m
+[32m+[m[32m  (wire (pts (xy 187.96 39.37) (xy 200.025 42.545))[m
+     (stroke (width 0) (type default) (color 0 0 0 0))[m
+     (uuid 75858cc5-4df6-4632-988b-089d49779028)[m
+   )[m
+[36m@@ -3618,19 +3618,19 @@[m
+     (pin "1" (uuid c6631088-d04a-459c-9e89-7625c8a082d5))[m
+   )[m
+ [m
+[31m-  (symbol (lib_id "Device:R") (at 187.96 45.72 0) (unit 1)[m
+[32m+[m[32m  (symbol (lib_id "Device:R") (at 200.025 46.355 0) (unit 1)[m
+     (in_bom yes) (on_board yes) (fields_autoplaced)[m
+     (uuid 46d3ae9c-a297-4441-8a87-1cbb23759606)[m
+[31m-    (property "Reference" "R9" (id 0) (at 190.5 44.4499 0)[m
+[32m+[m[32m    (property "Reference" "R9" (id 0) (at 202.565 45.0849 0)[m
+       (effects (font (size 1.27 1.27)) (justify left))[m
+     )[m
+[31m-    (property "Value" "R" (id 1) (at 190.5 46.9899 0)[m
+[32m+[m[32m    (property "Value" "R" (id 1) (at 202.565 47.6249 0)[m
+       (effects (font (size 1.27 1.27)) (justify left))[m
+     )[m
+[31m-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 186.182 45.72 90)[m
+[32m+[m[32m    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 198.247 46.355 90)[m
+       (effects (font (size 1.27 1.27)) hide)[m
+     )[m
+[31m-    (property "Datasheet" "~" (id 3) (at 187.96 45.72 0)[m
+[32m+[m[32m    (property "Datasheet" "~" (id 3) (at 200.025 46.355 0)[m
+       (effects (font (size 1.27 1.27)) hide)[m
+     )[m
+     (pin "1" (uuid 1a601459-8ead-4d6b-a5a4-ecdd6731547f))[m
