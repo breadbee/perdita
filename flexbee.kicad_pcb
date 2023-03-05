@@ -3792,7 +3792,7 @@
   (gr_text "(at)linux-chenxing" (at 135.075 86.825) (layer "B.SilkS") (tstamp b478748c-7c56-4a0a-af8c-169f312e6002)
     (effects (font (size 0.8 0.8) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "predita rev0" (at 133.175 97.55) (layer "B.SilkS") (tstamp def4ed09-2032-4b5e-8fa3-2d9aa74a454c)
+  (gr_text "perdita rev1" (at 133.175 97.55) (layer "B.SilkS") (tstamp def4ed09-2032-4b5e-8fa3-2d9aa74a454c)
     (effects (font (size 0.8 0.8) (thickness 0.2)) (justify mirror))
   )
   (gr_text "bzz!" (at 149.175 88.375) (layer "F.SilkS") (tstamp 97c5aa7b-ddfa-4b56-9b94-3bae031b2bae)
